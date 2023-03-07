@@ -28,7 +28,7 @@
 
 		// 2. Update the three span elements using ONLY JavaScript
 		let url = document.getElementById("URL");
-		url.innerHTML = "http://127.0.0.1:5500/339jsDiscussionCode.html";
+		url.innerHTML = window.location.href;
 		let items = document.getElementById("items");
 		items.innerHTML = document.querySelectorAll("li").length;
 		let time = document.getElementById("time");
